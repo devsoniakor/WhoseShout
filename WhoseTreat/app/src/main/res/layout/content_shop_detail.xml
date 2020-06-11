@@ -1,0 +1,180 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mad.whosetreat.activityFragments.ShopDetailFragment">
+
+    <TextView
+        android:id="@+id/detail_title_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/detail_title_Tv"
+        android:layout_margin="10dp"
+        android:background="@color/colorBlack" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/detail_img_1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_box" />
+
+
+            <TableLayout
+                android:id="@+id/detail_tableView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detail_img_1"
+                android:padding="10dp"
+                android:stretchColumns="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/ratingText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/shop_item_size"
+                        android:layout_marginRight="@dimen/detail_table_margin_rt"
+                        android:gravity="center_vertical"
+                        android:text="@string/rating"
+                        android:textStyle="bold" />
+
+                    <RatingBar
+                        android:id="@+id/detail_rating"
+                        style="?android:attr/ratingBarStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|start"
+                        android:backgroundTint="@color/colorPrimaryDark"
+                        android:max="5"
+                        android:rating="3"
+                        android:stepSize="0.1"
+                        android:transformPivotX="0dp"
+                        android:transformPivotY="20dp"
+                        android:translationX="1sp"
+                        tools:backgroundTint="@color/colorPrimaryDark" />
+
+                </TableRow>
+
+                <TableRow android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_marginRight="@dimen/detail_table_margin_rt"
+                        android:gravity="center_vertical"
+                        android:text="@string/budget"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/detail_budget_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|start"
+                        android:layout_marginRight="10sp"
+                        android:gravity="center_vertical"
+                        android:text="@string/no_information" />
+
+                </TableRow>
+
+                <TableRow android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_marginRight="@dimen/detail_table_margin_rt"
+                        android:text="@string/distance"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/detail_distance_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/shop_item_size"
+                        android:layout_gravity="center_vertical|start"
+                        android:gravity="center_vertical"
+                        android:text="@string/no_information" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_marginRight="@dimen/detail_table_margin_rt"
+                        android:gravity="center_vertical"
+                        android:text="@string/address"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/detail_vicinity_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|start"
+                        android:layout_marginRight="10sp"
+                        android:ellipsize="marquee"
+                        android:fitsSystemWindows="true"
+                        android:maxWidth="265dp"/>
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/opening_Tv"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/shop_item_size"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="@string/opening_hour_unknown"
+                        android:textSize="15sp" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail_tableView"
+                android:gravity="center_horizontal"
+                android:paddingBottom="20dp">
+
+                <Button
+                    android:id="@+id/place_confirm_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDarkTrans"
+                    android:text="@string/treat"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

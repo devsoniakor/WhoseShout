@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#d50000</color>-->
+    <!--<color name="colorPrimaryDark">#9b0000</color>-->
+    <!--<color name="colorPrimaryLight">#ff5131</color>-->
+    <!--<color name="colorAccent">#ff5131</color>-->
+    <!--<color name="colorPrimaryDarkTrans">#b19b0000</color>-->
+    <!--<color name="colorBlack">#000000</color>-->
+    <!--<color name="colorGreen">#06ae00</color>-->
+    <!--<color name="colorPrimaryTrans">#a9d50000</color>-->
+    <!--<color name="material_gray_300">#E0E0E0</color>-->
+    <!--<color name="colorAccentTrans">#aeff5131</color>-->
+    <!--<color name="colorWhite">#FFFFFF</color>-->
+
+    <!--<color name="colorPrimary">#BB1D34</color>-->
+    <!--<color name="colorPrimaryTrans">#BB1D34</color>-->
+
+    <!--<color name="colorPrimaryDark">#661C19</color>-->
+    <!--<color name="colorPrimaryDarkTrans">#661C19</color>-->
+
+    <!--<color name="colorPrimaryLight">#F1CE8C</color>-->
+    <!--<color name="colorAccent">#679C04</color>-->
+    <!--<color name="colorAccentTrans">#F7F4EF</color>-->
+
+    <!--<color name="primary_text">#212121</color>-->
+    <!--<color name="secondary_text">#757575</color>-->
+    <!--<color name="icons">#FFFFFF</color>-->
+    <!--<color name="divider">#BDBDBD</color>-->
+
+
+    <color name="colorPrimary">#d32f2f</color>
+    <color name="colorPrimaryDark">#9a0007</color>
+    <color name="colorPrimaryLight">#ff6659</color>
+    <color name="colorAccent">#ff6659</color>
+    <color name="colorPrimaryDarkTrans">#b59a0007</color>
+    <color name="colorPrimaryTrans">#c0d32f2f</color>
+    <color name="colorAccentTrans">#b2ff6659</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorGreen">#06ae00</color>
+    <color name="material_gray_100">#c7c7c7</color>
+    <color name="material_gray_300">#E0E0E0</color>
+    <color name="material_gray_700">#616161</color>
+    <color name="material_gray_800">#424242</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorIcon">#9a0007</color>
+    <color name="colorLightIcon">#9a0007</color>
+
+
+    <!--<color name="colorPrimary">#1976d2</color>-->
+    <!--<color name="colorPrimaryDark">#004ba0</color>-->
+    <!--<color name="colorPrimaryLight">#63a4ff</color>-->
+    <!--<color name="colorAccent">#63a4ff</color>-->
+    <!--<color name="colorPrimaryDarkTrans">#004ba0</color>-->
+    <!--<color name="colorBlack">#000000</color>-->
+    <!--<color name="colorGreen">#06ae00</color>-->
+    <!--<color name="colorPrimaryTrans">#af1976d2</color>-->
+    <!--<color name="material_gray_300">#E0E0E0</color>-->
+    <!--<color name="colorAccentTrans">#9b63a4ff</color>-->
+    <!--<color name="colorWhite">#FFFFFF</color>-->
+</resources>

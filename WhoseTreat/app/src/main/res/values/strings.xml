@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Whose Shout</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_text">Whose Shout?</string>
+    <string name="input_hint">How many of you?</string>
+    <string name="confirm_btn_text">Confirm</string>
+
+    <string name="ran_num_progress_msg">The one who will pay for the group is...</string>
+    <string name="rand_shop_progress_msg">Let me see...</string>
+    <string name="shop_result_string_1">Why don\'t you have at</string>
+    <string name="today">today?</string>
+    <string name="yay">Yay!</string>
+    <string name="num_result_msg">will be our hero today!</string>
+    <string name="coffee">Coffee</string>
+    <string name="meal">Meal</string>
+    <string name="drinks">Drinks</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="gps_turn_on_msg">To continue, click \'OK\' to turn on GPS or enter your location manually. If you want to proceed without location service, please click cancel.</string>
+    <string name="city">city</string>
+    <string name="enter">Enter</string>
+    <string name="loc_dialog_title">Location Alert</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="manual_input">Manual input</string>
+    <string name="title_activity_preference">PreferenceActivity</string>
+
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="send">Send</string>
+    <string name="start_chatting">Start chatting</string>
+    <string name="alert_msg_front">There is no available shops within</string>
+    <string name="alert_msg_middle">M. Do you want to expand search within</string>
+    <string name="alert_msg_tail">M?</string>
+    <string name="check_map">Check the Map</string>
+    <string name="action_sign_out">Sign Out</string>
+    <string name="done">Done</string>
+
+    <string name="loading_msg_front">Finding shops </string>
+    <string name="loading_msg_tail">M radius from you...</string>
+    <string name="price_level">Price Level:</string>
+    <string name="distance_from_you">away from you</string>
+    <string name="opening_hour_unknown">Opening hour unknown</string>
+    <string name="budget">Budget</string>
+    <string name="rating">Rating</string>
+    <string name="distance">Distance</string>
+    <string name="shop_open_now">The shop is opened now</string>
+    <string name="shop_close_now">The shop is closed now</string>
+    <string name="vicinity">Vicinity</string>
+    <string name="no_information">No information</string>
+    <string name="address">Address</string>
+    <string name="check">Check</string>
+    <string name="title_activity_group_preference">GroupPreferenceActivity</string>
+    <string name="your_treat">Your Shout</string>
+    <string name="s_treat">\'s Shout</string>
+    <string name="thank_you">Thank you</string>
+    <string name="it_is_your_treat">! It is your Shout!</string>
+    <string name="new_groups_name">New Group\'s Name</string>
+    <string name="new_group_dialog">New Group</string>
+    <string name="use_random_numbers">Use Random Numbers</string>
+    <string name="own_treat_toast_msg">It is your own Shout :)</string>
+    <string name="groups_info">Groups Info</string>
+    <string name="make_group">Make New Group</string>
+    <string name="treats">SHOUT</string>
+    <string name="member">MEMBER</string>
+    <string name="delete_the_group">Do you want to delete the group?</string>
+    <string name="alert">Alert</string>
+    <string name="reset_the_group">Do you want to reset shouts count?\n(The current counts will be sent to the other members via SMS)</string>
+    <string name="person_already_exits">Person already exits!</string>
+    <string name="please_select_members">Please select members (more than 1)</string>
+    <string name="using_random_numbers">Using Random Numbers</string>
+    <string name="group_already_exists">Group already exists</string>
+    <string name="confirm_treat">Confirm shout</string>
+    <string name="no_group_msg">There are no groups, please add a group by clicking the button below</string>
+    <string name="no_groups">No Groups</string>
+    <string name="treat">Shout</string>
+    <string name="detail">Detail</string>
+    <string name="new_person_name">New person\'s name</string>
+    <string name="choose_a_shop_or_press_randomisation_button">Choose a shop or Press Randomisation button</string>
+    <string name="add_member_msg">Please select names or add new name</string>
+    <string name="no_name_msg">Please click the button on the right corner to add people by input manually or by your contact list</string>
+    <string name="delete_the_person">Do you want to delete the person?</string>
+    <string name="enter_msg">Please select a Group or add new one to proceed</string>
+    <string name="rand_msg_tail">! It is your shout!</string>
+    <string name="thanks">Thanks</string>
+    <string name="open_now">Open Now</string>
+
+    <string name="s_shout_confirmed">\'s shout confirmed?</string>
+    <string name="manual">Manual</string>
+    <string name="contact">Contact</string>
+    <string name="name">Name</string>
+    <string name="add_new_person">Add new person</string>
+    <string name="please_correct_number">Please provide valid phone number</string>
+    <string name="please_fill_fields">Please fill all the fields</string>
+
+    <string-array name="meters">
+        <item>200M</item>
+        <item>400M</item>
+        <item>600M</item>
+        <item>800M</item>
+        <item>1KM</item>
+    </string-array>
+    <string name="title_activity_interstitial_ad">InterstitialAdActivity</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>>
+    <!--<string name="interstitial_ad_unit_id"> ca-app-pub-3823971398680747/5368325457</string>>-->
+    <string name="app_id">ca-app-pub-3823971398680747~6825889113</string>>
+    <string name="auth_client_id">389878392271-ka9g0dvevr19esfvfr0nfhd9aa3tr3mf.apps.googleusercontent.com</string>
+    <string name="contact_cap">CONTACT</string>
+    <string name="material_color_code">500</string>
+    <string name="change_group_name_title">Change Group\'s setting</string>
+    <string name="permission_required">Permission required</string>
+    <string name="already_exist">already exist</string>
+    <string name="permission_required_text">Read Contacts permission is required to proceed</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="random_selection">Random Selection</string>
+    <string name="random_on">RANDOM ON</string>
+    <string name="random_off">RANDOM OFF</string>
+    <string name="waiting_gps_signal_message">Sorry, I\'m waiting for your GPS signal. Please try again later.</string>
+    <string name="waiting_gps_title">Waiting for a GPS signal</string>
+    <string name="random_info_message">If this button turned \'On\', the selection of person to shout would be truly random (may result in unfair distribution)</string>
+
+
+</resources>

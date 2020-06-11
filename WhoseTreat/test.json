@@ -1,0 +1,26 @@
+{
+  "groups" : [
+    {
+      "name": "group1",
+      "group": [
+        {"person" : {"name" : "Jack", "count" : 0 , "paid" : 0.0}},
+        {"person": {"name" : "Jill", "count" : 0 , "paid" : 0.0}}
+      ], "count" : 0
+    },
+    {
+      "name": "group2",
+      "group": [
+        {"person" : {"name" : "Paul", "count" : 0 , "paid" : 0.0}},
+        {"person": {"name" : "Kitty", "count" : 0 , "paid" : 0.0}}
+      ] , "count" : 0
+    }
+  ]
+}
+
+Groups
+
+List<Group> groups
+
+Group
+private String name;
+private List<Person> members;

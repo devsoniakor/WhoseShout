@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:gravity="center_vertical|center_horizontal"
+    tools:context="com.mad.whosetreat.activityFragments.MenuSelectionFragment">
+
+    <androidx.appcompat.widget.AppCompatSpinner
+
+        android:id="@+id/meterSpinner"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="6dp"
+        android:entries="@array/meters">
+
+    </androidx.appcompat.widget.AppCompatSpinner>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/openSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/meterSpinner"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/open_now" />
+
+
+    <LinearLayout
+        android:id="@+id/menuSelLoadingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/ranNumProPadding">
+
+
+        <TextView
+            android:id="@+id/loadingTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/ranNumItemPadding"
+            android:textAlignment="center"
+            android:textSize="@dimen/ran_num_pb_text"
+            android:visibility="gone"/>
+
+        <ProgressBar
+            android:id="@+id/menu_selec_pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:indeterminate="true"
+            android:padding="@dimen/ranNumItemPadding"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/menu_selec_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center">
+
+
+        <ImageButton
+            android:id="@+id/coffeeBtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_coffee_cup" />
+
+        <TextView
+            android:id="@+id/coffeeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/coffeeBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/menuItemMargin"
+            android:labelFor="@+id/coffeeBtn"
+            android:text="@string/coffee"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/menu_selec_text_size" />
+
+        <ImageButton
+            android:id="@+id/lunchBtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/coffeeTv"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_hamburger" />
+
+        <TextView
+            android:id="@+id/lunchTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lunchBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/menuItemMargin"
+            android:labelFor="@+id/lunchBtn"
+            android:text="@string/meal"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/menu_selec_text_size" />
+
+        <ImageButton
+            android:id="@+id/drinkBtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/lunchTv"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_cocktail" />
+
+        <TextView
+            android:id="@+id/drinkTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/drinkBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/menuItemMargin"
+            android:labelFor="@+id/drinkBtn"
+            android:text="@string/drinks"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/menu_selec_text_size" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
