@@ -20,8 +20,6 @@ To run
 
 This app was created for CBA-UTS mobile project. 
 
-I won the competition with this my very first Android app with my mentor, Jason.
-
 My initial proposals and technical documnets are as follows:
 * Proposal (https://github.com/devsoniakor/WhoseShout/blob/master/supplements/proposal.pdf)
 * Design Doc (https://github.com/devsoniakor/WhoseShout/blob/master/supplements/FinalDesignDocumentation.pdf)
